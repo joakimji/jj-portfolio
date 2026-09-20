@@ -1,0 +1,14 @@
+Exempelbilder för MyPortfolio, skapade med den inbyggda bildgenereringen.
+Webbversionerna är komprimerade till WebP utan ändrad komposition eller upplösning.
+
+01-stillhet
+Use case: photorealistic-natural. Asset type: sample image for a personal photography portfolio. A breathtaking but completely realistic fine-art landscape photograph of a Scandinavian fjord in late summer at pale hazy dawn. Steep dark gray mountain slopes on both sides, still silvery blue water leading into layers of distant mountains, tiny red wooden hut low on the shore for scale. Natural muted slate-blue, dark pine, warm stone and pale cream sky. Wide panoramic composition with the lake occupying lower half, subtle film grain, restrained exposure, sophisticated Scandinavian photography magazine. No text, no border, no logo, no collage. Landscape 3:2, 1536 by 1024 pixels.
+
+02-linjer
+Use case: photorealistic-natural. Asset type: sample image for a personal photography portfolio. Minimalist fine-art architectural photograph of a warm pale sandstone curved brutalist facade, viewed from below, sculptural repeating sweeping curved vertical planes, a single narrow shadowed window, a small patch of pale blue sky in the upper left. Strong diagonal afternoon sunlight, deep warm charcoal shadows and soft ivory highlights, tangible concrete texture, restrained analog colors. Architectural photography magazine, completely photorealistic. No text, no logo, no border, no collage. Portrait composition, 1024 by 1536 pixels.
+
+03-skogsrum
+Use case: photorealistic-natural. Asset type: sample image for a personal photography portfolio. Exquisite photorealistic fine-art photograph deep in a Scandinavian pine forest at early morning. Straight tall dark trunks make an elegant natural rhythm, layers of mist recede into distance, subtle soft sunbeam, lush green moss, no people, no paths. Organic quiet composition, muted olive greens and charcoal brown, soft cool silver light. Analogue medium-format photography, subtle film grain, tangible botanical texture, real exposure, no exaggerated volumetric effects. No text, no logo, no border, no collage. Landscape 3:2, 1536 by 1024 pixels.
+
+04-efterljus
+Use case: photorealistic-natural. Asset type: sample image for a personal photography portfolio. Photorealistic minimalist fine-art seascape photograph from a Scandinavian rocky coast at dusk. Barely visible silvery gentle waves washing over dark rounded foreground rocks, vast calm gray-blue sea, pale faded apricot line on the horizon beneath a large subtly clouded cream-gray sky. Beautiful natural long exposure, understated color, gentle real lighting, restrained analogue grain, contemplative editorial quality, horizon perfectly straight. No text, no logos, no border, no collage. Landscape 3:2, 1536 by 1024 pixels.

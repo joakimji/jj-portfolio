@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4ef">
+  <meta name="description" content="Joakim Jilderbys visuella portfolio. Ett urval av bilder, platser och perspektiv.">
+  <title>Joakim Jilderby — Ett annat perspektiv</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23282c28'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia' font-size='35' fill='%23f5f4ef'%3Ej.%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="bilder.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#bilder">Hoppa till bilderna</a>
+  <div class="page-shell" id="toppen">
+    <header class="site-header">
+      <a class="identity" href="#toppen" aria-label="Joakim Jilderby, till toppen">
+        <span class="monogram" aria-hidden="true">j.</span>
+        <span class="identity-name">Joakim Jilderby<span>Visuell portfolio</span></span>
+      </a>
+      <nav aria-label="Huvudmeny">
+        <a class="nav-work" href="#bilder">Bilder <span class="nav-count" aria-hidden="true">04</span></a>
+        <a href="#om">Om</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="intro-title">
+        <div class="intro-heading">
+          <p class="eyebrow"><span class="small-dot" aria-hidden="true"></span> En samling perspektiv</p>
+          <h1 id="intro-title">Ett annat<br><em>perspektiv.</em></h1>
+        </div>
+        <div class="intro-aside">
+          <p>Det stora. Det stilla.<br>Och allt det där som är<br>lätt att gå förbi.</p>
+          <a class="text-link" href="#bilder">Utforska bilderna <span aria-hidden="true">↘</span></a>
+        </div>
+      </section>
+
+      <section class="work" id="bilder" aria-label="Utvalda bilder">
+        <div class="section-bar"><span>Utvalda bilder</span><span class="collection-count">01 — 04</span></div>
+        <div class="gallery" id="gallery"></div>
+        <noscript><p>Aktivera JavaScript för att visa galleriet. Bilderna finns också i mappen <strong>bilder</strong>.</p></noscript>
+        <p class="demo-note" id="demo-note">En första skiss, med AI-genererade exempelbilder.</p>
+      </section>
+
+      <section class="about" id="om" aria-labelledby="about-title">
+        <p class="eyebrow">Bakom bilderna</p>
+        <div class="about-copy">
+          <h2 id="about-title">En plats för det<br>som <em>stannar kvar.</em></h2>
+          <p>Jag heter Joakim. Här samlar jag bilder, idéer och perspektiv — ett visuellt arkiv som får växa med tiden.</p>
+          <span class="signature">Joakim Jilderby</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year">2026</span> Joakim Jilderby</span>
+      <span class="footer-middle">Se lite närmare.</span>
+      <a href="#toppen">Till toppen <span aria-hidden="true">↑</span></a>
+    </footer>
+  </div>
+
+  <dialog class="lightbox" aria-label="Bildvisare">
+    <div class="lightbox-toolbar">
+      <span class="lightbox-count" aria-live="polite"></span>
+      <button class="icon-button close-button" type="button" aria-label="Stäng bildvisaren"><span aria-hidden="true">×</span></button>
+    </div>
+    <div class="lightbox-stage">
+      <button class="icon-button previous-button" type="button" aria-label="Föregående bild"><span aria-hidden="true">←</span></button>
+      <img class="lightbox-image" alt="">
+      <button class="icon-button next-button" type="button" aria-label="Nästa bild"><span aria-hidden="true">→</span></button>
+    </div>
+    <div class="lightbox-caption"><h2></h2><span></span></div>
+    <p class="lightbox-hint">← → bläddra <span>·</span> Esc stäng</p>
+  </dialog>
+</body>
+</html>
